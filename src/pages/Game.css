@@ -1,0 +1,15 @@
+.a {
+    width: 80%;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 2px solid grey;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.a:hover {
+   background-color: rgba(0, 0, 0, 0.26); 
+}

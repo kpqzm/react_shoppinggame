@@ -1,0 +1,31 @@
+const allGame = [
+  { id: 1, name: "League of Legends", category: "MOBA", starscore: "★★★★★", price: 0, owned: false, heart: false, size: 18 },
+  { id: 2, name: "CookieRun Kingdom", category: "RPG", starscore: "★★★", price: 0, owned: false, heart: false, size: 0.8 },
+  { id: 3, name: "Split Fiction", category: "Action", starscore: "★★★★", price: 15000, owned: false, heart: false, size: 7 },
+  { id: 4, name: "OverWatch 2", category: "FPS", starscore: "★★★★", price: 0, owned: false, heart: false, size: 50 },
+  { id: 5, name: "Pummel Party", category: "Party", starscore: "★★★★", price: 13000, owned: false, heart: false, size: 2 },
+  { id: 6, name: "Escape Simulator", category: "Puzzle", starscore: "★★★★", price: 16000, owned: false, heart: false, size: 5 },
+  { id: 7, name: "Astroneer", category: "Adventure", starscore: "★★★★", price: 30000, owned: false, heart: false, size: 12 },
+  { id: 8, name: "Unrailed", category: "Co-op", starscore: "★★★★", price: 18000, owned: false, heart: false, size: 1.5 },
+  { id: 9, name: "Ultimate Chicken Horse", category: "Platformer", starscore: "★★★★", price: 14000, owned: false, heart: false, size: 1 },
+  { id: 10, name: "Sanabi", category: "Action", starscore: "★★★★★", price: 17000, owned: false, heart: false, size: 1.5 },
+  { id: 11, name: "The Crew 2", category: "Racing", starscore: "★★★", price: 25000, owned: false, heart: false, size: 55 },
+  { id: 12, name: "Dead By Daylight", category: "Horror", starscore: "★★★★", price: 21000, owned: false, heart: false, size: 65 },
+  { id: 14, name: "The Forest", category: "Survival", starscore: "★★★★", price: 10000, owned: false, heart: false, size: 15 },
+  { id: 15, name: "GTA 5", category: "Open World", starscore: "★★★★★", price: 35000, owned: false, heart: false, size: 100 },
+  { id: 16, name: "GreenHell", category: "Survival", starscore: "★★★★", price: 23000, owned: false, heart: false, size: 18 },
+  { id: 17, name: "Human Fall flat", category: "Puzzle", starscore: "★★★★", price: 12000, owned: false, heart: false, size: 5 },
+  { id: 18, name: "It Takes Two", category: "Co-op", starscore: "★★★★★", price: 40000, owned: false, heart: false, size: 50 },
+  { id: 19, name: "Lethal Company", category: "Horror Co-op", starscore: "★★★★", price: 8000, owned: false, heart: false, size: 2 },
+  { id: 20, name: "Phasmophobia", category: "Horror", starscore: "★★★★★", price: 15000, owned: false, heart: false, size: 20 },
+  { id: 21, name: "PUBG Battelgrounds", category: "Battle Royale", starscore: "★★★★", price: 0, owned: false, heart: false, size: 45 },
+  { id: 23, name: "Rust", category: "Survival", starscore: "★★★★★", price: 39000, owned: false, heart: false, size: 20 },
+  { id: 24, name: "Stardew Valley", category: "Simulation", starscore: "★★★★★", price: 17000, owned: false, heart: false, size: 0.5 },
+  { id: 25, name: "A Way Out", category: "Adventure Co-op", starscore: "★★★★★", price: 30000, owned: false, heart: false, size: 18 },
+  { id: 26, name: "Maple Stroy", category: "MMORPG", starscore: "★★★★", price: 0, owned: false, heart: false, size: 12 },
+  { id: 27, name: "Cookierun ToA", category: "RPG", starscore: "★★★", price: 0, owned: false, heart: false, size: 0.7 },
+  { id: 28, name: "Tricky Towers", category: "Puzzle", starscore: "★★★", price: 10000, owned: false, heart: false, size: 1 },
+  { id: 30, name: "Death's Door", category: "Action RPG", starscore: "★★★★★", price: 20000, owned: false, heart: false, size: 2 }
+];
+
+export default allGame;
