@@ -1,0 +1,35 @@
+.Filter {
+  
+  border: 1px solid rgb(226, 226, 226); /*경계확인용*/
+  
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.Filter > div {
+  text-align: left;
+}
+
+.filter_section {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: auto;
+
+  gap: 25px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid rgb(226, 226, 226); /*경계확인용*/
+}
+
+.filter_section p {
+  margin: 0;
+  padding-left: 7px;
+  width: 71px;
+  font-weight: bold;
+}
+
+.categoryLabel {
+  margin-right: 10px;
+}

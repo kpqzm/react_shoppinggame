@@ -1,0 +1,86 @@
+/* BoxCategory.css */
+
+.BoxCategoryWrapper {
+  /* position: relative; 제거: 화살표가 이제 category-header 내부에 있으므로 여기서는 필요 없습니다. */
+  height: 320px;
+  margin-bottom: 20px;
+}
+
+.category-header {
+  display: flex; /* 자식 요소(제목, 화살표 컨테이너)를 한 줄에 배치 */
+  justify-content: space-between; /* 제목은 왼쪽 끝, 화살표는 오른쪽 끝으로 분리 */
+  align-items: center; /* 수직 중앙 정렬 */
+  margin-bottom: 10px; /* 제목과 게임 목록 사이 간격 */
+  padding: 0 10px; /* 좌우 패딩 (BoxCategory와 일관성 유지) */
+}
+
+.category-header h2 {
+  margin: 0; 
+}
+
+.scroll-arrows-container {
+  display: flex; /* 화살표 버튼들을 가로로 나열 */
+  gap: 5px; /* 화살표 버튼들 사이 간격 */
+}
+
+.BoxCategory {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 21px;
+  padding-top: 10px;
+  scroll-behavior: smooth;
+}
+
+.BoxCategory:hover {
+  overflow-x: auto;
+}
+
+
+.BoxCategory > div {
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+/* --- 스크롤 화살표 스타일 (수정) --- */
+.scroll-arrow {
+  /* position: absolute; 관련 속성 모두 제거 */
+  /* top, transform, left, right 제거 */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px; /* 화살표 크기 조절 (제목 옆에 맞게 작게) */
+  height: 30px;
+  font-size: 16px; /* 폰트 사이즈 조절 */
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* left-arrow, right-arrow의 개별 위치 지정 속성 제거 (flex 컨테이너가 처리) */
+/* .left-arrow, .right-arrow 관련 CSS도 제거 */
+
+.BoxCategory_name {
+  width: 200px;
+  text-align: center;
+}
+
+.Home_Box {
+  padding-right: 4px;
+  width: 180px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+
+}

@@ -1,0 +1,105 @@
+.Header {
+  display: flex;
+  align-items: center;
+
+  padding: 0px 0px;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+}
+
+.Header > div {
+  flex: 1;
+}
+
+.Header .header_money {
+  align-items: center;
+  justify-content: flex-end;
+  height: 80%;
+  display: flex;
+}
+
+.money {
+  width: 60%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 1fr 1fr;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+.n12 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.n1 {
+  flex: 1;
+}
+
+.n2 {
+  flex: 5;
+  text-align: right;
+  font-size: 20px;
+}
+
+.n3 {
+  flex: 1;
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.n4 {
+  flex: 1;
+  cursor: pointer;
+  border-top: 2px solid grey;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.n3, .n4 {
+  transition: background-color 0.3s;
+}
+
+.n3:hover,
+.n4:hover {
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.Header .header_logo {
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}

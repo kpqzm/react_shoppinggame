@@ -1,0 +1,11 @@
+.OwnedGame {
+  flex: 6;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+
+.MyGames {
+  padding: 15px;
+  width: 200px;
+}

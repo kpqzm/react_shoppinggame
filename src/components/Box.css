@@ -1,0 +1,28 @@
+.Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0px 0px;
+  
+  width: 200px;
+  height: 200px;
+  margin: 0;
+}
+
+.Box > div {
+  flex: 1;
+}
+
+.Box_BoxSearch { 
+  width: 140px;
+  height: 100%;
+}
+
+.Box_BoxSearch img {
+  width: 140px;
+}
+
+.Home_Box img {
+  width: 180px;
+}

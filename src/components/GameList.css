@@ -1,0 +1,14 @@
+.GameList {
+  flex: 1.5;
+  height: 600px;
+  overflow-y: auto;
+  margin-right: 5px;
+}
+
+.GameList span:hover {
+  text-decoration: underline;
+}
+
+li {
+  text-align: left;
+}

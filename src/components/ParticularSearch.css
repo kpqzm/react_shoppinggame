@@ -1,0 +1,20 @@
+.ParticularSearch {
+
+
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.ParticularSearch > div {
+  flex: 1;
+}
+
+.ParticularSearch .ParticularSearch_Box {
+  height: 170px;
+  padding-top: 4px;
+}
+
+.no_result_found {
+  text-align: center;
+}

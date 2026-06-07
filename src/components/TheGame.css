@@ -1,0 +1,91 @@
+.TheGame {
+  flex: 6;
+}
+
+.TheGame_image {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 9
+}
+
+.TheGame_image > img {
+  width: 100%;
+}
+
+.TheGame_image::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  background: linear-gradient(to top, 
+              rgba(0, 0, 0, 0.7) 0%,   /* 아래쪽은 진한 검은색 */
+              rgba(0, 0, 0, 0.5) 50%,  /* 중간은 약간 투명한 검은색 */
+              rgba(0, 0, 0, 0.2) 100%);
+}
+
+.TheGame_image > img {
+  height: 100%;
+}
+
+.game_info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  z-index: 2;
+}
+
+.game_info > div {
+  flex: 1;
+  height: 100px;
+  color: white;
+}
+
+.buyButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buyButton > Button {
+  font-size: 30px;
+  width: 140px;
+  height: 50px;
+}
+
+.sizeInfo {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr 2fr 2fr;
+  justify-content: end;
+}
+
+.sizeInfo > p {
+  margin: 0px;
+  padding-top: 24px;
+}
+
+.heart {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.gameIntro {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.gameIntro > input {
+  margin-bottom: 6px;
+  height: 60px;
+}
